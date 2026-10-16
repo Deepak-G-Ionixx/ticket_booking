@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: eventticketbooking
+      comment: Initial no-op migration; add schema changes here as entities are introduced.
+      changes:
+        - sql:
+            sql: SELECT 1
